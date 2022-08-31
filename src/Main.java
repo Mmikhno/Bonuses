@@ -19,5 +19,7 @@ public class Main {
         total = startAmount + amount + finalBonuses;
         System.out.println("Итоговая сумма составляет " + total);
         System.out.println("Начисленные бонусы: " + finalBonuses);
+        //доп код 31.08.2022
+        System.out.println("итоговая сумма минус начисленные бонусы составляет:" + (total - finalBonuses));
     }
 }
